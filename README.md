@@ -120,6 +120,12 @@ This charter is not about limiting AI - it's about creating a layered defense me
 - 🔄 **Submit PRs**: Ready to contribute? [Create a pull request](https://github.com/asmeyatsky/vibecharter/pulls)
 - 🗣️ **Join the Conversation**: Share your experiences with the charter
 
+## 💝 Sponsorship
+
+Support the future of disciplined AI-augmented development! Your sponsorship helps maintain this framework and enables continued research into architectural governance for AI systems.
+
+- 💖 **[Become a Sponsor](https://github.com/sponsors/asmeyatsky)**: Support ongoing development and maintenance
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
