@@ -84,7 +84,7 @@ We believe the future of software development requires disciplined AI collaborat
 
 ## 🏃‍♂️ Quick Start
 
-1. **Read the Charter**: Start with the [main document](Vibe%20Coding%20Charter_%20Architectural%20Governance%20for%20AI-Augmented%20Development.pdf)
+1. **Read the Charter**: Start with the [main document](Vibe%20Coding%20Charter.pdf)
 2. **Assess Your Current State**: Evaluate existing AI-generated code
 3. **Implement Boundaries**: Define Domain-Driven Design contexts
 4. **Establish Governance**: Create your Technical Steering Committee
@@ -115,9 +115,9 @@ This charter is not about limiting AI - it's about creating a layered defense me
 
 ## 📞 Get Involved
 
-- 🐛 **Report Issues**: Found a problem? [Open an issue](../../issues)
-- 💡 **Request Features**: Have an idea? [Start a discussion](../../discussions)
-- 🔄 **Submit PRs**: Ready to contribute? [Create a pull request](../../pulls)
+- 🐛 **Report Issues**: Found a problem? [Open an issue](https://github.com/asmeyatsky/vibecharter/issues)
+- 💡 **Request Features**: Have an idea? [Start a discussion](https://github.com/asmeyatsky/vibecharter/discussions)
+- 🔄 **Submit PRs**: Ready to contribute? [Create a pull request](https://github.com/asmeyatsky/vibecharter/pulls)
 - 🗣️ **Join the Conversation**: Share your experiences with the charter
 
 ## 📄 License
