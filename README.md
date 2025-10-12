@@ -56,7 +56,7 @@ A comprehensive governance framework designed to transform AI from a spontaneous
 
 This repository contains:
 
-- **[Charter Document](Vibe%20Coding%20Charter_%20Architectural%20Governance%20for%20AI-Augmented%20Development.pdf)**: Complete framework and implementation guide
+- **[Charter Document](Vibe%20Coding%20Charter.pdf)**: Complete framework and implementation guide
 - **[Research Paper](Vibe%20Coding,%20SoC,%20and%20Monoliths.pdf)**: In-depth analysis of architectural decay in AI-augmented development
 - **Implementation Examples** (Coming Soon)
 - **Templates and Checklists** (Coming Soon)
