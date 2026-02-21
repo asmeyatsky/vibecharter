@@ -58,8 +58,23 @@ This repository contains:
 
 - **[Charter Document](Vibe%20Coding%20Charter.pdf)**: Complete framework and implementation guide
 - **[Research Paper](Vibe%20Coding,%20SoC,%20and%20Monoliths.pdf)**: In-depth analysis of architectural decay in AI-augmented development
+- **[SKILL.md](SKILL.md)**: Architectural principles and code generation standards (original)
+- **[skill2026.md](skill2026.md)**: **2026 Edition** — updated standards reflecting the current AI-augmented development landscape
 - **Implementation Examples** (Coming Soon)
 - **Templates and Checklists** (Coming Soon)
+
+### 🆕 What's New in SKILL.md 2026 Edition
+
+The 2026 edition extends the foundational patterns with significant updates to reflect the reality that most production code is now co-authored with AI:
+
+- **6 Core Principles** (up from 4): Added **MCP-Native Integration Architecture** and **Parallelism-First Design** as new architectural pillars
+- **7 Non-Negotiable Rules** (up from 5): Added **MCP-Compliant Service Boundaries** (one MCP server per bounded context, tools for writes, resources for reads) and **Parallel-Safe Orchestration** (DAG-based workflow execution)
+- **MCP Integration Patterns**: Bounded contexts as MCP servers, MCP client adapters behind ports, and centralized server registry configuration
+- **Parallelization Patterns**: Fan-out/fan-in, pipeline parallelism with typed stages, and agent task decomposition
+- **AI-Native Context Patterns**: Structured output schemas with Pydantic, context window management, and persistent memory via MCP resources
+- **Multi-Agent Coordination**: Patterns for decomposing complex tasks across parallel AI agents with research, synthesis, and validation phases
+- **Expanded Anti-Patterns**: New warnings against MCP sprawl, synchronous bottlenecks, god orchestrators, untyped AI output, and context stuffing
+- **Updated Project Structure**: Includes `mcp_servers/`, `mcp_clients/`, and `orchestration/` directories
 
 ## 🤝 Contributing
 
