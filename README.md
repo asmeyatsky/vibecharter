@@ -67,14 +67,25 @@ This repository contains:
 
 The 2026 edition extends the foundational patterns with significant updates to reflect the reality that most production code is now co-authored with AI:
 
+#### Expanded Principles & Rules
 - **6 Core Principles** (up from 4): Added **MCP-Native Integration Architecture** and **Parallelism-First Design** as new architectural pillars
 - **7 Non-Negotiable Rules** (up from 5): Added **MCP-Compliant Service Boundaries** (one MCP server per bounded context, tools for writes, resources for reads) and **Parallel-Safe Orchestration** (DAG-based workflow execution)
+
+#### New Pattern Sections
 - **MCP Integration Patterns**: Bounded contexts as MCP servers, MCP client adapters behind ports, and centralized server registry configuration
 - **Parallelization Patterns**: Fan-out/fan-in, pipeline parallelism with typed stages, and agent task decomposition
 - **AI-Native Context Patterns**: Structured output schemas with Pydantic, context window management, and persistent memory via MCP resources
 - **Multi-Agent Coordination**: Patterns for decomposing complex tasks across parallel AI agents with research, synthesis, and validation phases
-- **Expanded Anti-Patterns**: New warnings against MCP sprawl, synchronous bottlenecks, god orchestrators, untyped AI output, and context stuffing
+- **Advanced Patterns**: Event-driven communication with MCP-backed event bus, CQRS with separate read/write MCP interfaces
+
+#### Practical Guidance
+- **Implementation Checklist**: Layer-by-layer verification checklist covering layer separation, interface design, domain modeling, MCP compliance, parallelization, testing, and documentation
+- **Code Generation Guidelines**: Step-by-step workflow — start with the domain, define ports, implement use cases, add infrastructure adapters, create tests at every layer
 - **Updated Project Structure**: Includes `mcp_servers/`, `mcp_clients/`, and `orchestration/` directories
+- **Certification Criteria**: 8-point quality gate including architectural fitness functions, test coverage thresholds (≥80% overall, ≥95% domain), and MCP compliance
+- **Expanded Anti-Patterns**: New warnings against MCP sprawl, synchronous bottlenecks, god orchestrators, untyped AI output, and context stuffing
+
+> **Note**: All patterns should be applied pragmatically based on project scale — a solo microservice doesn't need multi-agent coordination, but it still needs clean layer separation and tests.
 
 ## 🤝 Contributing
 
