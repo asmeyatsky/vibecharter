@@ -1,7 +1,7 @@
 # Vibe Coding Charter
 ## A New Standard for AI-Augmented Development
 
-![Vibe Coding Charter](vibecharter.png)
+![Vibe Coding Charter](vibecharter2026.jpg)
 
 ### Transforming AI from a spontaneous automaton into a disciplined, architecture-aware co-pilot
 
